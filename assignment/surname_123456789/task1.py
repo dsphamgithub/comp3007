@@ -19,8 +19,6 @@
 import os
 
 
-import os
-
 def save_output(output_path, content, output_type='txt'):
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     
@@ -30,7 +28,7 @@ def save_output(output_path, content, output_type='txt'):
         print(f"Text file saved at: {output_path}")
     elif output_type == 'image':
         # Assuming 'content' is a valid image object, e.g., from OpenCV
-        content.save(output_path)
+        cv2.imwrite(output_path, content)
         print(f"Image saved at: {output_path}")
     else:
         print("Unsupported output type. Use 'txt' or 'image'.")
