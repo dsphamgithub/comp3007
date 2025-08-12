@@ -4,7 +4,7 @@ Machine Perception Assignment
 Directory Structure:
 ---------------------
 Your submission folder should be named using the convention [lastname]_[firstname]_[studentID] 
-Example: trump_donald12345678
+Example: trump_donald_12345678
 Please remove spaces, dashes and other non-alphabet characters in your lastname and firstname whilst creating this folder.
 
 Inside this folder, you must have the following structure:
