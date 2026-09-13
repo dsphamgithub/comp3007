@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
     config = read_config(config_path)
     if not config:
-        sys.exit(1)
+        print("Warning: No config parameters found. Config file may be empty.")
 
     try:
         if task == "task1":
